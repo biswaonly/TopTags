@@ -1,0 +1,6 @@
+{
+	"mongoURI" : "mongodb+srv://biswaonly:iambiswajit@toptags-dlhk7.mongodb.net/test?retryWrites=true",
+	"jwtSecret" : "secrettoken",
+	"googleClientId" : "203465554694-aojfepfqgfcu91e2sb4hj076aefbovis.apps.googleusercontent.com",
+	"googleClientSecret" : "enMNyeN8Hpct3hHS8FNXtyz5"
+}
