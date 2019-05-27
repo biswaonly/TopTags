@@ -1,16 +1,28 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const TagSchema = new mongoose.Schema({
-	tag : {
-		type : String
-	},
-	usetime : {
-		type : Number,
+  tag: {
+    type: String,
+    required: true
+  },
+  searchWords: [
+    {
+			type: String,
+			required : true
+		},
+		{
+			id : String,
+			required : true
+		}
+  ],
+  useTime: {
+    type: Number,
+    required: true
+  },
+  lastUse: {
+		type: Date,
 		required : true
-	},
-	lastuse : {
-		type : Date
-	}
+  }
 });
 
-module.exports = Tags = mongoose.model('tags', TagSchema);
+module.exports = Tags = mongoose.model("tags", TagSchema);

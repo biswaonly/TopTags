@@ -1,6 +1,8 @@
 {
-	"mongoURI" : "mongodb+srv://biswaonly:iambiswajit@toptags-dlhk7.mongodb.net/test?retryWrites=true",
-	"jwtSecret" : "secrettoken",
-	"googleClientId" : "203465554694-aojfepfqgfcu91e2sb4hj076aefbovis.apps.googleusercontent.com",
-	"googleClientSecret" : "enMNyeN8Hpct3hHS8FNXtyz5"
+  "mongoURI": "mongodb+srv://biswaonly:iambiswajit@toptags-dlhk7.mongodb.net/test?retryWrites=true",
+  "jwtSecret": "secrettoken",
+  "googleClientId": "203465554694-aojfepfqgfcu91e2sb4hj076aefbovis.apps.googleusercontent.com",
+  "googleClientSecret": "enMNyeN8Hpct3hHS8FNXtyz5",
+  "ritekitClientId": "76270ce1a6bce359b25133ce352e15cfeb49743865d2",
+  "ritekitClientSecret": "5a0eb9294d5f194e2665d50f9853f03b34e03cd2dc81ae44f52d7797d89b170e"
 }
