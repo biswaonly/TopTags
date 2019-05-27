@@ -1,0 +1,22 @@
+.header {
+  height: 60px;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(#434343), to(black));
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 10px 0px darkgray;
+          box-shadow: 0px 0px 10px 0px darkgray;
+}
+
+.header div {
+  top: 50%;
+  position: relative;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin: auto;
+}
+
+.header div .inline {
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */

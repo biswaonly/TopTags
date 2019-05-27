@@ -1,0 +1,77 @@
+.result {
+  text-align: center;
+  height: calc(100vh - 60px);
+  position: relative;
+  background-image: url("../../data/Bren_Jess_Ledge.jpg");
+  background-position: left;
+  background-size: cover;
+}
+
+.result .result_header {
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+.result .result_header .result_logo {
+  display: inline-block;
+}
+
+.result .result_header h2 {
+  display: inline-block;
+}
+
+.result .inline {
+  margin: 3px auto;
+}
+
+.result .inline p {
+  margin: auto 5px;
+  border-radius: 5px;
+  padding: 2px 3px;
+  cursor: pointer;
+  background-color: #888888;
+  color: white;
+}
+
+.result .inline .active_hash {
+  background-color: #3b3b3b;
+  -webkit-box-shadow: 0 0 5px 0 #3b3b3b;
+          box-shadow: 0 0 5px 0 #3b3b3b;
+}
+
+.result .button_copy {
+  bottom: 15px;
+  position: absolute;
+  width: 100%;
+}
+
+.result .button_copy .btn_blw {
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin: auto;
+  cursor: pointer;
+}
+
+.result .button_copy .btn_blw .btn_t20 {
+  background-color: yellow;
+  width: 50%;
+}
+
+.result .button_copy .btn_blw .btn_select {
+  background-color: gray;
+  width: 50%;
+}
+
+.result .button_copy .btn_blw .clear_btn {
+  width: 20%;
+  background-color: blueviolet;
+}
+
+.result .button_copy .btn_blw .openApp {
+  width: 80%;
+  background-color: gray;
+}
+/*# sourceMappingURL=result.css.map */

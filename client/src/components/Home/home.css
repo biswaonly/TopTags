@@ -1,0 +1,128 @@
+.home {
+  height: calc(100vh - 60px);
+  background-image: url("../../data/Bren_Jess_Ledge.jpg");
+  background-position: left;
+  background-size: cover;
+}
+
+.home .searchOrUpload {
+  text-align: center;
+  top: 40%;
+  -webkit-transform: translateY(-40%);
+          transform: translateY(-40%);
+  position: relative;
+}
+
+.home .searchOrUpload .extra_blue {
+  margin: auto;
+  width: 70%;
+  background-color: #523572;
+  border-radius: 5px;
+  height: 38px;
+}
+
+.home .searchOrUpload .extra_blue .search_k {
+  width: calc(100% - 6px);
+  margin: 0 auto;
+}
+
+.home .searchOrUpload .extra_blue .search_k .ant-input-group-wrapper {
+  width: 100%;
+  margin-top: 3px;
+}
+
+.home .searchOrUpload .search_result {
+  max-height: 300px;
+  width: 70%;
+  background-color: rgba(167, 167, 167, 0.5);
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  overflow-y: scroll;
+  line-height: 18px;
+}
+
+.home .searchOrUpload .search_result::-webkit-scrollbar {
+  display: none;
+}
+
+.home .searchOrUpload .search_data_p {
+  line-height: 20px;
+  text-transform: capitalize;
+}
+
+.home .searchOrUpload .search_data_a {
+  background-color: lightgrey;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.home .searchOrUpload .search_data_p:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+.home .platform_class {
+  bottom: 10px;
+  position: absolute;
+}
+
+.searchNList {
+  text-align: center;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.platforms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.dropzone div {
+  background-color: lightgrey;
+  height: 30px;
+  width: 70%;
+  margin: auto;
+  font-size: 20px;
+  margin: auto;
+  vertical-align: middle;
+  border: 1px dashed black;
+  outline: none;
+}
+
+.dropzone div p {
+  margin-top: 3px;
+}
+
+.ttd {
+  top: 25px !important;
+}
+
+.or {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.clearfix .ant-input-affix-wrapper:focus {
+  outline: none !important;
+}
+
+.clearfix .ant-input-suffix {
+  outline: navy !important;
+  margin: 0;
+}
+
+.clearfix .ant-select {
+  width: 70px !important;
+}
+
+.clearfix .ant-select {
+  font-size: 18px !important;
+}
+/*# sourceMappingURL=home.css.map */

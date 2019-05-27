@@ -1,0 +1,16 @@
+.header {
+  height: 60px;
+  width: 100%;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  text-align: center;
+  box-shadow: 0px 0px 10px 0px darkgray;
+  div {
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    margin: auto;
+    .inline {
+      color: white;
+    }
+  }
+}

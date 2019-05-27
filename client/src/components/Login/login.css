@@ -1,0 +1,178 @@
+.user_login {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.user_login h1 {
+  color: brown;
+}
+
+.login {
+  height: calc(100vh - 60px);
+}
+
+.login .login_center {
+  max-width: 300px;
+  width: 80%;
+}
+
+.login .login_center i {
+  top: 50%;
+  left: 30px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.Google {
+  background: linear-gradient(45deg, #fff 50%, #cb4023 50%);
+  border: 2px solid #cb4023;
+}
+
+.Google::after {
+  background: linear-gradient(40deg, #cb4023 50%, transparent 50%);
+}
+
+.Google:hover, .Google:hover::after {
+  color: #cb4023;
+}
+
+.Facebook {
+  background: linear-gradient(45deg, #fff 50%, #3b5999 50%);
+  border: 2px solid #3b5999;
+}
+
+.Facebook::after {
+  background: linear-gradient(40deg, #3b5999 50%, transparent 50%);
+}
+
+.Facebook:hover, .Facebook:hover::after {
+  color: #3b5999;
+}
+
+.Twitter {
+  background: linear-gradient(45deg, #fff 50%, #5aa3eb 50%);
+  border: 2px solid #5aa3eb;
+}
+
+.Twitter::after {
+  background: linear-gradient(40deg, #5aa3eb 50%, transparent 50%);
+}
+
+.Twitter:hover, .Twitter:hover::after {
+  color: #5aa3eb;
+}
+
+.Mobile {
+  background: linear-gradient(45deg, #fff 50%, #333333 50%);
+  border: 2px solid #333333;
+}
+
+.Mobile::after {
+  background: linear-gradient(40deg, #333333 50%, transparent 50%);
+}
+
+.Mobile:hover, .Mobile:hover::after {
+  color: #333333;
+}
+
+.platform {
+  height: 50px;
+  width: 100%;
+  padding: 8px 16px;
+  margin: 20px auto;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  color: white;
+}
+
+.platform .logo_width {
+  width: 40px;
+}
+
+.down50 {
+  top: 50%;
+  left: 60px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  position: absolute;
+}
+
+.platform::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.platform, .platform::after {
+  background-size: 300%;
+  background-position: 100%;
+  -webkit-transition: 1s,font-size .3s,font-weight .3s;
+  transition: 1s,font-size .3s,font-weight .3s;
+}
+
+.platform:hover, .platform:hover::after {
+  background-position: 0;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.mob_log {
+  height: calc(100vh - 60px);
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  text-align: center;
+}
+
+.mob_log .mob_log_header h3 {
+  padding: 80px 0 40px;
+}
+
+.mob_log .ant-input-group {
+  margin-bottom: 20px !important;
+}
+
+.otp_input {
+  height: 30px;
+  width: 30px;
+  background-color: #5aa3eb;
+  outline: none;
+  border: none;
+  margin: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: transparent;
+  text-shadow: 0 0 0 black;
+}
+
+.partitioned {
+  padding-left: 15px;
+  letter-spacing: 42px;
+  border: 0;
+  background-image: -webkit-gradient(linear, right top, left top, color-stop(70%, black), color-stop(0%, rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(to left, black 70%, rgba(255, 255, 255, 0) 0%);
+  background-position: bottom;
+  background-size: 50px 1px;
+  background-repeat: repeat-x;
+  background-position-x: 35px;
+  width: 220px;
+  min-width: 220px;
+}
+
+.divInner {
+  left: 0;
+}
+
+.divOuter {
+  width: 190px;
+  overflow: hidden;
+}
+/*# sourceMappingURL=login.css.map */
